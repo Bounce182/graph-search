@@ -1,0 +1,23 @@
+[graph]
+; ==== Graph nodes and edges weight goes here. For example {node1}-{node2}-{edge_weight} ====
+A-B-5, B-C-4, C-D-8, D-C-8, D-E-6, A-D-5, C-E-2, E-B-3, A-E-7
+
+[route_distance_count]
+; ==== Route distance parameters. For example {node1}-{node2}-{node_n} ====
+A-B-C, A-D, A-D-C, A-E-B-C-D, A-E-D
+
+[max_stops_trips_count]
+; ==== Number of trips from starting node to ending node, with max stops. For example {node1}-{node2}-{max_stops} ====
+C-C-3
+
+[exact_stops_trips_count]
+; ==== Number of trips from starting node to ending node, with exact stops. For example {node1}-{node2}-{exact_stops} ====
+A-C-4
+
+[shortest_route_count]
+; ==== Shortest route count params from node1 to node2. For example {node1}-{node2} ====
+A-C, B-B
+
+[different_routes_count]
+; ==== Different routes count from node1 to node2 with a max distance. For example {node1}-{node2}-{max-distance} ====
+C-C-30
